@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#1E3A8A"/>
+            <corners android:radius="16dp"/>
+            <stroke
+                android:width="2dp"
+                android:color="@color/royal_gold"/>
+        </shape>
+    </item>
+    <!-- Subtle grid pattern overlay -->
+    <item>
+        <vector
+            android:width="24dp"
+            android:height="24dp"
+            android:viewportWidth="24"
+            android:viewportHeight="24">
+            <path
+                android:strokeColor="#FFFFFF"
+                android:strokeWidth="0.5"
+                android:pathData="M0,12L24,12M12,0L12,24"/>
+        </vector>
+    </item>
+</layer-list>

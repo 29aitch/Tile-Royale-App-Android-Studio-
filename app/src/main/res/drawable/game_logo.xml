@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Background Shield -->
+    <path
+        android:fillColor="#1E40AF"
+        android:strokeColor="@color/royal_gold"
+        android:strokeWidth="4"
+        android:pathData="M100,10 L180,50 L180,120 Q180,160 100,190 Q20,160 20,120 L20,50 Z"/>
+
+    <!-- Crown -->
+    <path
+        android:fillColor="@color/royal_gold"
+        android:pathData="M60,70 L80,50 L100,70 L120,50 L140,70 L130,90 L70,90 Z"/>
+
+    <!-- Grid Pattern -->
+    <path
+        android:strokeColor="@color/royal_gold"
+        android:strokeWidth="4"
+        android:pathData="M70,100 L130,100 M100,70 L100,130"/>
+
+    <!-- Decorative Gems -->
+    <path
+        android:fillColor="#DC2626"
+        android:pathData="M100,40 L110,50 L100,60 L90,50 Z"/>
+    <path
+        android:fillColor="#2563EB"
+        android:pathData="M60,80 L70,90 L60,100 L50,90 Z"/>
+    <path
+        android:fillColor="#2563EB"
+        android:pathData="M140,80 L150,90 L140,100 L130,90 Z"/>
+</vector>
